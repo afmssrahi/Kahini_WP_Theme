@@ -1,0 +1,254 @@
+/* Basic Css 
+==============*/
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* Header area */
+
+
+/* navbar area */
+nav ul li{
+    padding: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff !important;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #45a6f5 !important;
+}
+
+/* banner area */
+main .banner-area {
+    text-align: center;
+    color: #fff;
+    padding-top: 17%;
+    padding-bottom: 5rem;
+    line-height: 1.7;
+    
+}
+
+main .banner-area .banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    z-index: -2;
+}
+
+main .banner-area .banner .img-overlay {
+    position: absolute;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+
+/* Categories Area */
+main .categories {
+    padding: 2rem 0;
+}
+
+main .categories a {
+    border: 1px solid #f5f6f7;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-left: 1.5rem;
+    line-height: 3.5;
+    background: #f5f6f7;
+    box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.1);
+    color: #808080;
+    transition: all 0.5s ease;
+}
+
+main .categories a:hover,
+main .categories a:focus {
+    color: #fff;
+    background: #45a6f5;
+    box-shadow: none;
+}
+
+/* Post area */
+main .post-area {
+    padding: 2rem 0;
+}
+
+main .post-area .mesonary{
+    column-count: 2;
+}
+
+main .post-area article {
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    width: auto;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+main .post-area article.blog-post {
+    box-shadow: 1px 8px 12px rgba(0, 0, 0, 0.2);
+    border: 1px solid #cee4f8;
+    transition: box-shadow 0.5s ease;
+}
+
+main .post-area article.blog-post:hover {
+    box-shadow: none;
+}
+
+main .post-area article.blog-post .post-thumbnail img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* pagination */
+ul.pagination a,
+ul.pagination span {
+    border: 1px solid #f5f6f7;
+    box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.1);
+    color: #333 !important;
+    padding: 5px 10px;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+}
+
+ul.pagination span {
+    color: #fff !important;
+    background: #45a6f5;
+}
+
+ul.pagination a:hover,
+ul.pagination a:focus {
+    color: #fff !important;
+    background: #45a6f5;
+    box-shadow: none;
+}
+
+/* Sidebar Area */
+aside.sidebar {
+    margin-top: -18px
+}
+aside.sidebar .latest-post h4 {
+    padding: 10px;
+    color: #0d6efd;
+}
+
+aside.sidebar ul {
+    list-style: none;
+}
+
+aside.sidebar ul li {
+    width: 320px;
+    margin-left: -10px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    border-bottom: 1px solid #bad8f7;
+    border-radius: 10px;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+aside.sidebar ul li:hover {
+    background: #45a6f5;
+}
+
+aside.sidebar ul li a {
+    color: #808080;
+}
+
+aside.sidebar ul li:hover a{
+    color: #fff;
+}
+
+
+
+/* popular tags */
+
+
+.tagcloud a {
+    font-size: 16px !important;
+    border: 1px solid #f5f6f7;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-left: 1.5rem;
+    line-height: 3.5;
+    background: #f5f6f7;
+    box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.1);
+    color: #808080;
+    transition: all 0.5s ease;
+}
+
+.tagcloud a:hover,
+.tagcloud a:focus {
+    color: #fff;
+    background: #45a6f5;
+    box-shadow: none;
+}
+
+
+/* Footer Area */
+
+footer {
+    background: #3b3b3b;
+    padding: 2rem 0;
+}
+
+footer h4 {
+    color: #0d6efd;
+    text-align: center;
+}
+
+footer p {
+    text-align: justify;
+    color: #808080;
+}
+
+footer .gallery {
+    padding: 0 20px;
+}
+
+footer .gallery .gallery-item {
+    width: 25%;
+}
+
+footer .popular-tags .tags a {
+    padding: 8px 15px;
+    border-radius: 50px;
+    margin-right: 0.25rem;
+    line-height: 3;
+    background: #f5f6f7;
+    box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.1);
+    color: #808080;
+    transition: all 0.5s ease;
+}
+footer .popular-tags .tags a:hover,
+footer .popular-tags .tags a:focus {
+    color: #fff;
+    background: #45a6f5;
+    box-shadow: none;
+}

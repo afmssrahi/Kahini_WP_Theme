@@ -1,0 +1,134 @@
+/* media for viewport 0px to 767px */
+@media (min-width: 0px) and (max-width: 767px) {
+    main .banner-area .banner img {
+        height: 320px;
+    }
+
+    main .banner-area .banner .img-overlay {
+        height: 320px;
+    }
+
+    main .banner-area {
+        padding-bottom: 2rem;
+    }
+
+    main .post-area {
+        margin: 0 5px;
+    }
+    
+    main .post-area .mesonary{
+        column-count: 1;
+    }
+
+    ul.pagination {
+        padding-bottom: 40px;
+    }
+
+    ul.pagination li a{
+        padding: 2.5px 5px;
+    }
+
+    
+    aside.sidebar ul li {
+        width: 100%;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer p {
+        width: auto;
+        padding: 0 10px;
+    }
+
+    footer .gallery .gallery-item {
+        width: 20% !important;
+    }
+
+}
+
+/* media for viewport 768px to 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+    main .banner-area .banner img {
+        height: 420px;
+    }
+
+    main .banner-area .banner .img-overlay {
+        height: 420px;
+    }
+
+    main .banner-area {
+        padding-top: 20%;
+    }
+
+    main .post-area .mesonary{
+        column-count: 1;
+    }
+    
+    aside.sidebar ul li {
+        width: 100%;
+    }
+
+    footer .gallery .gallery-item {
+        width: 15% !important;
+    }
+}
+
+/* media for viewport 1024px to 1198px */
+@media (min-width: 1024px) and (max-width: 1198px) {
+    main .banner-area {
+        padding-top: 20%;
+    }
+    aside.sidebar ul li {
+        width: 100%;
+    }
+    footer .gallery .gallery-item {
+        width: 25% !important;
+    }
+}
+
+/* media for viewport 1199px to 1439px */
+@media (min-width: 1199px) and (max-width: 1480px) {
+    main .banner-area .banner img {
+        height: 500px;
+    }
+
+    main .banner-area .banner .img-overlay {
+        height: 500px;
+    }
+
+    main .categories {
+        padding-bottom: 1rem;
+    }
+
+}
+
+
+/* media for viewport 1481px to 2080px */
+@media (min-width: 1481px) and (max-width: 2080px) {
+    main .banner-area .banner img {
+        height: 650px;
+    }
+
+    main .banner-area .banner .img-overlay {
+        height: 650px;
+    }
+
+    main .categories {
+        padding-top: 4%;
+        padding-bottom: 1rem;
+    }
+
+}
+
+/* media for viewport 2560 to  grater */
+@media (min-width: 2560px) {
+    main .banner-area .banner img {
+        height: 700px;
+    }
+
+    main .banner-area .banner .img-overlay {
+        height: 700px;
+    }
+}
